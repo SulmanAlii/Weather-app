@@ -1,0 +1,53 @@
+.weather{
+    display:flex;
+    overflow-x: visible;
+    overflow-y: hidden;
+}
+
+.weather::-webkit-scrollbar{
+    overflow-x: hidden;
+}
+
+.euTitle{
+    font-size:2.5rem ;
+    margin-left: 0.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+.each_city_weather{
+    /* margin: 2.5rem; */
+    margin-top: 0.8rem;
+    margin-right: 2.5rem;
+    margin-left: 0.7rem;
+    text-align: center;
+}
+
+.each_city{
+    text-align: center;
+}
+
+.each_city_weather img{
+    height: 6rem;
+}
+.each_city_weather h1{
+    text-align: center;
+    width: 10rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+span{
+    margin-top: -1rem;
+}
+
+
+.each_city_weather h3{
+    text-align: center;
+}
+
+.each_city{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
